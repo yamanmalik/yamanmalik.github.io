@@ -4,7 +4,6 @@ const SKILLS = [
   { src: '/assets/python.png', name: 'Python' },
   { src: '/assets/java.webp', name: 'Java' },
   { src: '/assets/sql.png', name: 'SQL' },
-  { src: '/assets/c.png', name: 'C' },
   { src: '/assets/angular.svg', name: 'Angular' },
   { src: '/assets/html.png', name: 'HTML' },
   { src: '/assets/css.png', name: 'CSS' },
