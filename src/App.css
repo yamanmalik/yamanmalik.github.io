@@ -374,6 +374,52 @@
   }
 }
 
+
+.timeline__body {
+  min-width: 0;
+}
+
+.timeline__roles {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-top: 0.9rem;
+}
+
+.role__title {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--cream);
+}
+
+.role--sub {
+  position: relative;
+  padding-left: 1.75rem;
+}
+
+.role--sub .role__title {
+  font-size: 1.15rem;
+  color: var(--cream-dim);
+}
+
+.role--sub::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: -1.5rem;
+  height: 2.35rem;
+  width: 1.05rem;
+  border-left: 1px solid rgba(244, 236, 223, 0.22);
+  border-bottom: 1px solid rgba(244, 236, 223, 0.22);
+  border-bottom-left-radius: 9px;
+}
+
+#education h2 {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  margin: 0.35rem 0 2.5rem;
+}
+
 /* ---------- Skills ---------- */
 .skills {
   display: flex;
